@@ -1,0 +1,703 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 100;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  z-index: 1;
+}
+
+.company-logo {
+  top: 49px;
+  text-align: left;
+  font: normal normal bold 50px/61px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+  text-transform: uppercase;
+}
+
+.brand-cards {
+  overflow: hidden !important;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  font-size: 24px;
+  width: 100%;
+  height: 100px;
+  background: white;
+  position: fixed;
+  text-align: center;
+  line-height: 50px;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  margin-top: 12px;
+}
+
+.header nav {
+  float: right;
+  top: 0;
+  position: absolute;
+  right: 80px;
+}
+.header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+  padding-top: 0.2em;
+}
+.header nav ul li a {
+  text-decoration: none;
+  color: #767d88;
+}
+
+.header.shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 5px 5px rgba(57, 63, 72, 0.3);
+}
+
+body {
+  height: 1000px;
+  background: #e8ebf0;
+}
+
+.company-logo {
+  width: 154px;
+  height: 51px;
+}
+
+.emp-benefits {
+  width: 541px;
+  height: 170px;
+  color: #1020a5;
+  top: 292px;
+  left: 100px;
+  text-align: left;
+  font: normal normal 600 75px/95px Josefin Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.img {
+  top: 208px;
+  left: 634px;
+  width: 1228px;
+  height: 786px;
+  background: transparent url("img/Group 848.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+div .contentsss {
+  max-width: 200px;
+  min-width: 200px;
+  background: grey;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.company-solutions {
+  top: 80px !important;
+  text-align: center;
+  font: normal normal 600 75px/95px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+  opacity: 1;
+}
+
+.wrapper {
+  display: flex;
+  top: 40.1px;
+  overflow: hidden !important;
+  width: 100%;
+  justify-content: space-between;
+}
+.shadow {
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+.card1 {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+.card2 {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+.card3 {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+
+.benefit-selection {
+  margin-top: -52px !important;
+  height: 31px;
+  text-align: center;
+  font: normal normal normal 30px/45px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+  opacity: 1;
+}
+
+.img2 {
+  margin-top: 40px;
+  margin-left: 120px;
+  margin-right: 120px;
+  width: 159.11px;
+  height: 159.11px;
+  background: transparent url("Assets/sale.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.img6 {
+  margin-top: 28px;
+  margin-left: 48;
+  margin-right: 48x;
+  height: 159.11px;
+  /* background: transparent url("Assets/passport.svg") 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}
+
+.img6{
+  background: transparent url("Assets/passport.svg") 0% 0% no-repeat padding-box;
+
+}
+
+.img7 {
+  background: transparent url("Assets/car (1).svg") 0% 0% no-repeat padding-box;
+}
+.img8 {
+  background: transparent url("Assets/fast-food.svg") 0% 0% no-repeat
+    padding-box;
+}
+.img9 {
+  background: transparent url("Assets/brand.svg") 0% 0% no-repeat padding-box;
+}
+.img11 {
+  background: transparent url("Assets/insurance.svg") 0% 0% no-repeat
+    padding-box;
+}
+.img12 {
+  background: transparent url("Assets/Union 6.svg") 0% 0% no-repeat padding-box;
+}
+.img13 {
+  background: transparent url("Assets/lotus.svg") 0% 0% no-repeat padding-box;
+}
+
+.discount-place {
+  margin: 30px 113px 30px 113px;
+  text-align: center;
+  font: normal normal 600 30px/40px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+  opacity: 1;
+}
+
+.product-info {
+  height: 165px;
+  text-align: center;
+  font: normal normal normal 25px/35px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+  opacity: 1;
+}
+
+.btn-signin:hover {
+  background: #1020a5;
+  color: white;
+}
+
+li a .about-us:focus {
+  background: #eab126 !important;
+}
+
+.btn-signin {
+  border-radius: 35px;
+  padding: 10px 35px 10px 35px;
+  color: #2d2d2d;
+  font: normal normal normal 20px/27px Josefin Sans;
+  border: 2px solid #1020a5;
+}
+
+.benefitPlus-info {
+  margin-top: 753px;
+}
+.marketplaces-discount {
+  margin-right: 50px;
+}
+
+.btn-learn {
+  border: 2px solid #1020a5;
+  margin: 75px 80px 40px 80px;
+  height: 55px;
+  text-align: left;
+  font: normal normal normal 30px/37px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+
+  border-radius: 35px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.company-work {
+  text-align: left;
+  font: normal normal 600 75px/95px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+  opacity: 1;
+  margin-top: 15px;
+  margin-left: 155px;
+  margin-bottom: 10px;
+}
+
+.online-marketplace {
+  text-align: left;
+  font: normal normal normal 30px/45px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+  opacity: 1;
+  margin-top: 40px !important;
+  margin-left: 159px;
+}
+
+.marketplace-delivery {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-more {
+  margin-left: 164px;
+  margin-top: 10px;
+}
+
+.btn-learn:hover {
+  background: #1020a5;
+  color: white;
+}
+
+.img5 {
+  background: transparent url("Assets/4527298.png") 0% 0% no-repeat padding-box;
+  margin-top: -89px;
+}
+
+.employees-benfit {
+  text-align: center;
+  font: normal normal 600 75px/95px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+  opacity: 1;
+  font-weight: 100;
+}
+
+.discounts-emp {
+  text-align: center;
+  font: normal normal normal 30px/45px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+  opacity: 1;
+}
+
+.partner-select {
+  text-align: center;
+  font: normal normal 600 75px/95px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+  opacity: 1;
+}
+
+.lorem-ipsum {
+  height: 31px;
+  text-align: center;
+  font: normal normal normal 30px/45px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.benefit-globe {
+  height: 75px;
+  text-align: center;
+  font: normal normal 600 75px/95px Josefin Sans;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+  opacity: 1;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #efefef;
+  color: #333;
+  font-family: "Raleway";
+  height: 100%;
+}
+body h1 {
+  text-align: center;
+  color: #428bff;
+  font-weight: 300;
+  padding: 40px 0 20px 0;
+  margin: 0;
+}
+
+.tabs input[name="tab-control"] {
+  display: none;
+}
+.tabs .content section h2,
+.tabs ul li label {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 18px;
+  color: #2d2d2d;
+  text-align: center;
+  font: normal normal normal 30px/45px Josefin Sans;
+  letter-spacing: 0px;
+}
+
+.country-tab {
+  margin-left: 122px;
+  margin-right: 175px;
+}
+
+.tabs ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.tabs ul li {
+  box-sizing: border-box;
+  flex: 1;
+  width: 25%;
+  padding: 0 10px;
+  text-align: center;
+}
+.tabs ul li label {
+  transition: all 0.3s ease-in-out;
+  color: #929daf;
+  padding: 5px auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.tabs ul li label br {
+  display: none;
+}
+.tabs ul li label svg {
+  fill: #929daf;
+  height: 1.2em;
+  vertical-align: bottom;
+  margin-right: 0.2em;
+  transition: all 0.2s ease-in-out;
+}
+.tabs ul li label:hover,
+.tabs ul li label:focus,
+.tabs ul li label:active {
+  outline: 0;
+  color: #bec5cf;
+}
+.tabs ul li label:hover svg,
+.tabs ul li label:focus svg,
+.tabs ul li label:active svg {
+  fill: #bec5cf;
+}
+.tabs .slider {
+  position: relative;
+  width: 36px;
+  margin-left: 187px;
+  transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
+  margin-bottom: -9px;
+}
+.tabs .slider .indicator {
+  position: relative;
+  width: 50px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 4px;
+  background: #ff7975;
+  border-radius: 1px;
+}
+.tabs .content {
+  margin-top: 30px;
+}
+.tabs .content section {
+  display: none;
+  -webkit-animation-name: content;
+  animation-name: content;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  line-height: 1.4;
+}
+.tabs .content section h2 {
+  color: #428bff;
+  display: none;
+}
+.tabs .content section h2::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #428bff;
+  margin-top: 5px;
+  left: 1px;
+}
+.tabs
+  input[name="tab-control"]:nth-of-type(1):checked
+  ~ ul
+  > li:nth-child(1)
+  > label {
+  cursor: default;
+  color: #428bff;
+}
+.tabs
+  input[name="tab-control"]:nth-of-type(1):checked
+  ~ ul
+  > li:nth-child(1)
+  > label
+  svg {
+  fill: #428bff;
+}
+
+.tabs input[name="tab-control"]:nth-of-type(1):checked ~ .slider {
+  transform: translateX(0%);
+}
+.tabs
+  input[name="tab-control"]:nth-of-type(1):checked
+  ~ .content
+  > section:nth-child(1) {
+  display: block;
+}
+.tabs
+  input[name="tab-control"]:nth-of-type(2):checked
+  ~ ul
+  > li:nth-child(2)
+  > label {
+  cursor: default;
+  color: #428bff;
+}
+.tabs
+  input[name="tab-control"]:nth-of-type(2):checked
+  ~ ul
+  > li:nth-child(2)
+  > label
+  svg {
+  fill: #428bff;
+}
+
+.img20 {
+  margin-top: 61px;
+}
+
+.map-globe {
+  position: absolute;
+}
+
+.exact-loc {
+  position: relative;
+  top: -304px;
+  right: 511px;
+}
+
+.exact-locn {
+  position: relative;
+  top: -471px;
+  right: 710px;
+}
+
+.contentsss {
+  display: flex;
+  flex-direction: row;
+  margin-top: 130px;
+}
+
+.empl-benefits {
+  letter-spacing: 0px;
+  color: #1020a5;
+}
+
+.img01 {
+  width: 100%;
+  margin-left: 192px;
+}
+.employee-betterment {
+  font-size: 28px;
+}
+
+.workforce {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #2d2d2d;
+  font-size: 28px;
+}
+
+.signIn {
+  display: flex;
+}
+
+.signInStrted {
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.gallery {
+  margin-left: 275px;
+}
+
+.lazada-logo {
+  overflow: hidden;
+}
+.lazada-logos {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.exact-locns {
+  position: relative;
+  top: -542px;
+  right: 921px;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4caf50;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.prev-nect {
+  display: flex;
+  justify-content: space-between;
+}
+
+.previous1 {
+  margin-top: 83px;
+  margin-left: 181px;
+  background-color: #00000026;
+}
+.previous2 {
+  margin-top: 81px;
+  margin-right: 68px;
+  background-color: #00000026;
+}
+
+.logo-central {
+  margin-top: -28px;
+}
+.lorem-div {
+  margin-top: -89px;
+}
+.indicator {
+  margin-left: -10px;
+}
+
+.benefitPlus-info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 160px;
+}
+
+.partner-login {
+  margin-right: 100px;
+  font: normal normal normal 28px/34px Josefin Sans;
+  letter-spacing: 1.4px;
+  color: #4b4b4b;
+}
+
+.line-break {
+  border: #1020a5;
+}
+
+.marketplaces-discount {
+  font: normal normal normal 28px/34px Josefin Sans;
+  letter-spacing: 1.4px;
+  color: #4b4b4b;
+}
+
+.lorem-contact-det {
+  font: normal normal normal 29px/35px Josefin Sans;
+  letter-spacing: 1.45px;
+  color: #4b4b4b;
+  opacity: 1;
+}
+.lorem-copyright {
+  height: 31px;
+  text-align: center;
+  font: normal normal normal 30px/37px Josefin Sans;
+  letter-spacing: 1.5px;
+  color: #4b4b4b;
+  opacity: 1;
+}
+
+.facilities{
+  text-align: center;
+}
+

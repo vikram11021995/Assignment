@@ -1,0 +1,15 @@
+<svg id="location-pin" xmlns="http://www.w3.org/2000/svg" width="59.708" height="79.611" viewBox="0 0 59.708 79.611">
+  <path id="location-pin-2" data-name="location-pin" d="M32.854,0A30,30,0,0,0,3,30.07c0,23.562,27.048,47.89,28.2,48.911a2.494,2.494,0,0,0,3.31,0c1.151-1.025,28.2-25.353,28.2-48.915A30,30,0,0,0,32.854,0Zm0,46.44A16.586,16.586,0,1,1,49.44,29.854,16.6,16.6,0,0,1,32.854,46.44Z" transform="translate(-3)" fill="#4c5f75"/>
+  <g id="canada_1_" data-name="canada (1)" transform="translate(8.354 7.672)">
+    <circle id="Ellipse_24" data-name="Ellipse 24" cx="22" cy="22" r="22" fill="#f0f0f0"/>
+    <g id="Group_450" data-name="Group 450" transform="translate(0 2.183)">
+      <path id="Path_3538" data-name="Path 3538" d="M379.739,45.219A22,22,0,0,0,367.3,25.4V65.036A22,22,0,0,0,379.739,45.219Z" transform="translate(-335.739 -25.402)" fill="#d80027"/>
+      <path id="Path_3539" data-name="Path 3539" d="M0,45.219A22,22,0,0,0,12.435,65.036V25.4A22,22,0,0,0,0,45.219Z" transform="translate(0 -25.402)" fill="#d80027"/>
+      <path id="Path_3540" data-name="Path 3540" d="M178.435,187.652l3.826-1.913-1.913-.956V182.87l-3.826,1.913,1.913-3.826h-1.913l-1.913-2.87-1.913,2.87h-1.913l1.913,3.826-3.826-1.913v1.913l-1.913.956,3.826,1.913-.956,1.913h3.826v2.87h1.913v-2.87h3.826Z" transform="translate(-152.609 -164.966)" fill="#d80027"/>
+    </g>
+  </g>
+  <g id="Ellipse_24-2" data-name="Ellipse 24" transform="translate(8.354 7.672)" fill="none" stroke="#fff" stroke-width="2">
+    <circle cx="22" cy="22" r="22" stroke="none"/>
+    <circle cx="22" cy="22" r="21" fill="none"/>
+  </g>
+</svg>
