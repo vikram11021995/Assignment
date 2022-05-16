@@ -186,9 +186,8 @@ div .contentsss {
   opacity: 1;
 }
 
-.img6{
+.img6 {
   background: transparent url("Assets/passport.svg") 0% 0% no-repeat padding-box;
-
 }
 
 .img7 {
@@ -307,6 +306,11 @@ li a .about-us:focus {
 .img5 {
   background: transparent url("Assets/4527298.png") 0% 0% no-repeat padding-box;
   margin-top: -89px;
+  border-radius: 0 0 700px 700px;
+  background-color: #ecfffe;
+  float: right;
+  height: 100% !important;
+  width: 100% !important;
 }
 
 .employees-benfit {
@@ -697,7 +701,6 @@ a:hover {
   opacity: 1;
 }
 
-.facilities{
+.facilities {
   text-align: center;
 }
-
